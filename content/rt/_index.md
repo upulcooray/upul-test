@@ -1,8 +1,8 @@
 ---
-title: Talks that Last
+title: Rt (aRt using R)
 description: |
-  This is a list for your talks, workshops, or other events with a time, date, and place.
-author: "The R Markdown Team @RStudio"
+  Just a couple of nice plots, for #TidyTuesday or Generative aRt.
+author: "Deisy Morselli Gysi"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: true
@@ -27,7 +27,7 @@ sidebar:
 
 # set up common front matter for all pages inside blog/
 cascade:
-  author: "The R Markdown Team @RStudio"
+  author: "Deisy Morselli Gysi"
   show_author_byline: true
   show_post_date: true
   show_post_time: true
@@ -35,7 +35,7 @@ cascade:
   # for single-sidebar layout
   sidebar:
     text_link_label: View recent talks
-    text_link_url: /talk/
+    text_link_url: /rt/
     show_sidebar_adunit: false # show ad container
 ---
 

@@ -19,7 +19,7 @@ sidebar:
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container
-
+  
 # set up common front matter for all individual pages inside project/
 cascade:    
   show_author_byline: true
