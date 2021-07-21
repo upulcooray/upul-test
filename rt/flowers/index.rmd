@@ -1,0 +1,50 @@
+---
+subtitle: "Generative Rt"
+title: "Flowers"
+excerpt: ""
+date: 2021-07-20
+author: "Deisy Morselli Gysi"
+draft: false
+# layout options: single, single-sidebar
+layout: single
+categories:
+- GenerativeArt
+- art
+tags:
+- plots
+- ggplot2
+- rt
+- art
+- artistry
+- rtistry
+
+---
+
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+
+
+x = seq(from=-20, to=20, by = 0.01) %>%
+  expand.grid(x=., y=.) 
+p = x %>%
+  ggplot() +
+  aes(x=(pi*x + sin(x*pi)), 
+      y=(y*pi * sin(x*pi)), 
+      color = y) + 
+  
+  geom_point(alpha=.01, shape=20, size=0)+
+  scale_color_viridis_c(option = "inferno", direction = 1) +
+  theme_void()+
+  theme(legend.position = "none" ) +
+  coord_polar(); p
+
+```
+
+
+```{r, echo = FALSE, results = FALSE, fig.keep='none', message=FALSE, warning=FALSE}
+ggsave("featured.png", bg = "transparent")
+p
+dev.off()
+```
+
