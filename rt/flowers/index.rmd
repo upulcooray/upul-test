@@ -1,8 +1,8 @@
 ---
 subtitle: "Generative Rt"
-title: "Flowers"
-excerpt: "As flores de plástico não morrem"
-date: 2021-07-20
+title: "Flower"
+excerpt: "Got me so high, and then she dropped me"
+date: 2021-07-22
 author: "Deisy Morselli Gysi"
 draft: false
 # layout options: single, single-sidebar
@@ -20,25 +20,24 @@ tags:
 
 ---
 
-_As flores de plástico não morrem_ (Titas)
+_Got me so high, and then she dropped me_ (Maroon five)
 
-Plastic flowers don't die. 
 
 
 ```{r, message=FALSE, warning=FALSE}
 library(tidyverse)
 
 
-x = seq(from=-20, to=20, by = 0.01) %>%
+x = seq(from=-5, to=5, by = 0.005) %>%
   expand.grid(x=., y=.) 
 p = x %>%
   ggplot() +
   aes(x=(pi*x + sin(x*pi)), 
       y=(y*pi * sin(x*pi)), 
-      color = y) + 
-  
+      color = abs(y)) + 
   geom_point(alpha=.01, shape=20, size=0)+
-  scale_color_viridis_c(option = "inferno", direction = 1) +
+ scale_color_distiller(palette = "YlGn", 
+ direction = 1) +
   theme_void()+
   theme(legend.position = "none" ) +
   coord_polar(); p
