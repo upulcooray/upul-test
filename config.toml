@@ -1,8 +1,8 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Personal wonderland of Deisy Gysi"
-author = "Deisy Gysi"
+title = "Transition from clinical dentist to a researcher"
+author = "Upul Cooray"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = ""
@@ -28,9 +28,9 @@ enableEmoji = true
     style = "github"
 
 [params]
-  orgName = "Deisy Morselli Gysi"
+  orgName = "Upul Cooray"
   orgLocal = ""
-  description = "Network Science | Bioinformatics | Statistics | Biotechnology"
+  description = "Epidemiology | Public Health | Statistics | Dentistry"
   favicon = "/img/logo_color.png"
   logo = "/img/logo_color.png"
   mainSections = ["publications", "project", "talk"]
@@ -43,12 +43,12 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/logo_color.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "GysiDeisy"
+  twitter = "upulcooray"
 
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water
-  theme = "solarizedLight"
+  theme = "water"
 
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -133,36 +133,36 @@ enableEmoji = true
     url = "/talk/"
     weight = 4
 
-  [[menu.header]]
-    name = "Teaching"
-    title = "Teaching"
-    url = "/teaching/"
-    weight = 5
-
-  [[menu.header]]
-    name = "R Packages"
-    title = "R Packages"
-    url = "/rpackages/"
-    weight = 6
-
-  [[menu.header]]
-    name = "CV"
-    title = "CV"
-    url = "/cv/"
-    weight = 7
-
-   [[menu.header]]
-    name = "Useful Links"
-    title = "Useful Links"
-    url = "/links/"
-    weight = 7
-    
-  [[menu.header]]
-    name = "Rt"
-    title = "Rt (Art)"
-    url = "/rt/"
-    weight = 8
-
+#  [[menu.header]]
+#    name = "Teaching"
+#    title = "Teaching"
+#    url = "/teaching/"
+#    weight = 5
+#
+#  [[menu.header]]
+#    name = "R Packages"
+#    title = "R Packages"
+#    url = "/rpackages/"
+#    weight = 6
+#
+#  [[menu.header]]
+#    name = "CV"
+#    title = "CV"
+#    url = "/cv/"
+#    weight = 7
+#
+#   [[menu.header]]
+#    name = "Useful Links"
+#    title = "Useful Links"
+#    url = "/links/"
+#    weight = 7
+#    
+#  [[menu.header]]
+#    name = "Rt"
+#    title = "Rt (Art)"
+#    url = "/rt/"
+#    weight = 8
+#
 #  [[menu.header]]
 #    name = "Blog"
 #    title = "Blog"
@@ -174,6 +174,7 @@ enableEmoji = true
     title = "License"
     url = "/license/"
     weight = 1
+    
   [[menu.footer]]
     name = "Contact"
     title = "Contact form"
