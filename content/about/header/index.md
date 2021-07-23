@@ -3,13 +3,15 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hey, ho! 
-  I'm Deisy Morselli Gysi.
+  Hey Everyone! 
+  I'm Upul Cooray.
 ---
 
 <!-- this is a subheadline -->
 
-Currently, I'm a **Associate Research Scientist** at the [**BarabasiLab**](https://www.barabasilab.com/) \@ [Network Science Institute - Northeastern University](https://www.networkscienceinstitute.org/)) and a **Research Trainee** at [**Channing Division of Network Medicine** (Harvard Medical School / Brigham and Women's Hospital)](https://www.brighamandwomens.org/research/departments/channing-division-of-network-medicine/about). I'm mostly interested in **biomarker discovery** for complex diseases related to auto-immune response (i.e. as rheumatoid arthritis - RA - and inflammatory bowel disease - IBD), mental disorders (such as autism spectrum disorders, bipolar, schizophrenia, PTSD, etc) and senior disorder (Alzheimer and Parkinson). I'm also interested in **drug repurpusing** for those diseases, mostly using a combination of **multi-omic**, **machine learning** and **network analysis** approaches. I'm highly interested in developing methodologies and [**R packages**](/rpackages).
+Currently, I'm a **PhD Student** at the [**BarabasiLab**](https://www.barabasilab.com/) \@ [Network Science Institute - Northeastern University](https://www.networkscienceinstitute.org/)) and a **Research Trainee** at [**Channing Division of Network Medicine** (Harvard Medical School / Brigham and Women's Hospital)](https://www.brighamandwomens.org/research/departments/channing-division-of-network-medicine/about). 
+
+I'm mostly interested in **biomarker discovery** for complex diseases related to auto-immune response (i.e. as rheumatoid arthritis - RA - and inflammatory bowel disease - IBD), mental disorders (such as autism spectrum disorders, bipolar, schizophrenia, PTSD, etc) and senior disorder (Alzheimer and Parkinson). I'm also interested in **drug repurpusing** for those diseases, mostly using a combination of **multi-omic**, **machine learning** and **network analysis** approaches. I'm highly interested in developing methodologies and [**R packages**](/rpackages).
 
 During COVID-19 we decided to use our skills and focus on repurpusing drug candidates for treating this disease, a [publication can be found here](https://www.pnas.org/content/118/19/e2025581118). I was also involved with the project that celebrated the [20th anniversary of the Human Genome Project](https://www.nature.com/articles/d41586-021-00314-6).
 

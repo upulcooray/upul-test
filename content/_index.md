@@ -1,7 +1,7 @@
 ---
-title: "Deisy Morselli Gysi"
-subtitle: "Networks & Cognition"
-description: "Network Science | Bioinformatics | Statistics | Biotechnology"
+title: "Upul Cooray"
+subtitle: "A Dentist working with Data"
+description: "Epidemiology | Public Health | Oral health | Health Inequalities"
 date: 2021-06-08
 image_left: true
 text_align_left: false
