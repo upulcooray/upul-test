@@ -1,6 +1,6 @@
 ---
 title: "Upul Cooray"
-subtitle: "A Dentist working with Data"
+subtitle: "A Dentist who loves Data & People"
 description: "Epidemiology | Public Health | Oral health | Health Inequalities"
 date: 2021-06-08
 image_left: true
