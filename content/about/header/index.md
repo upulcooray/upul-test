@@ -4,12 +4,12 @@ text_align_right: false
 show_title_as_headline: false
 headline: |
   Hey Everyone! 
-  I'm Upul Cooray.
+  
 ---
 
 <!-- this is a subheadline -->
 
-Currently, I'm a **PhD Student** at the [**BarabasiLab**](https://www.barabasilab.com/) \@ [Network Science Institute - Northeastern University](https://www.networkscienceinstitute.org/)) and a **Research Trainee** at [**Channing Division of Network Medicine** (Harvard Medical School / Brigham and Women's Hospital)](https://www.brighamandwomens.org/research/departments/channing-division-of-network-medicine/about). 
+I'm Upul Cooray. Currently, I'm a **PhD student** at the **Department of International & Community Oral Health** \@ [Graduate School of Dentistry - Tohoku University (Japan)](http://www.dent.tohoku.ac.jp/english/)
 
 I'm mostly interested in **biomarker discovery** for complex diseases related to auto-immune response (i.e. as rheumatoid arthritis - RA - and inflammatory bowel disease - IBD), mental disorders (such as autism spectrum disorders, bipolar, schizophrenia, PTSD, etc) and senior disorder (Alzheimer and Parkinson). I'm also interested in **drug repurpusing** for those diseases, mostly using a combination of **multi-omic**, **machine learning** and **network analysis** approaches. I'm highly interested in developing methodologies and [**R packages**](/rpackages).
 
